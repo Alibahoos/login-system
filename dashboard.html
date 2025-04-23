@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>داشبورد مدیریت</h1>
+        <div class="menu">
+            <a href="add-data.html" class="menu-item">افزودن اطلاعات</a>
+            <a href="age-verification.html" class="menu-item">تایید سن</a>
+            <div class="database-upload">
+                <h3>بارگذاری دیتابیس</h3>
+                <input type="file" id="databaseFile" accept=".xlsx,.csv,.json">
+                <button id="uploadBtn">بارگذاری فایل</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
